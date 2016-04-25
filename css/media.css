@@ -1,0 +1,40 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/
+  .welcome h2 {
+    font-size: 62px;
+    line-height: 2.7; }
+  .portfolio_item:hover .port_item_cont {
+    padding-top: 5%; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/
+  .fullpage h1 {
+    font-size: 120px; }
+  .portfolio_item .port_item_cont {
+    padding-top: 20%; }
+  .portfolio_item:hover .port_item_cont {
+    padding-top: 15%; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+  /**/
+  .fullpage h1 {
+    font-size: 80px; }
+  .welcome .text_cont {
+    margin-right: 20px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /**/
+  .fullpage h1 {
+    font-size: 60px;
+    line-height: 65px; }
+  .button {
+    width: 70px;
+    height: 70px; }
+  .button.clicked .firstcross,
+  .button.clicked .secondcross {
+    height: 45px; } }

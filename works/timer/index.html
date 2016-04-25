@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Timer</title>
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+
+  <body>
+
+    <div class="main"></div>
+    <div class="widget">
+      <div class="widget-content">
+        <div class="main-text">
+          <h1>
+            Countdown to
+            <br>
+            New Years 2017
+          </h1>
+          <p>
+            Share warm words with your friends
+            <br>
+            to all the wishes in the new
+            <br>
+            year will be granted!
+            <br>
+          </p>
+          <div class="btn">
+            Shared
+          </div>
+        </div>
+        <div id="clock" class="timer">
+          <div class="timer-container">
+            <div class="timer-circle">
+              <svg width="120" height="120" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <circle id="back" class="days" fill="transparent" cx="60" cy="60"></circle>
+                <circle id="bar" class="days" fill="transparent" cx="60" cy="60" transform="rotate(-90,60,60)"></circle>
+              </svg>
+              <div class="timer-content days">
+                <div class="number"></div>
+                <div class="descr">days</div>
+              </div>
+            </div>
+            <div class="timer-circle">
+              <svg width="120" height="120" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <circle id="back" class="hours" fill="transparent" cx="60" cy="60"></circle>
+                <circle id="bar" class="hours" fill="transparent" cx="60" cy="60" transform="rotate(-90,60,60)"></circle>
+              </svg>
+              <div class="timer-content hours">
+                <div class="number"></div>
+                <div class="descr">hours</div>
+              </div>
+            </div>
+            <div class="timer-circle">
+              <svg width="120" height="120" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <circle id="back" class="minutes" fill="transparent" cx="60" cy="60"></circle>
+                <circle id="bar" class="minutes" fill="transparent" cx="60" cy="60" transform="rotate(-90,60,60)"></circle>
+              </svg>
+              <div class="timer-content minutes">
+                <div class="number"></div>
+                <div class="descr">minutes</div>
+              </div>
+            </div>
+            <div class="timer-circle">
+              <svg width="120" height="120" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <circle id="back" class="seconds" fill="transparent" cx="60" cy="60"></circle>
+                <circle id="bar" class="seconds" fill="transparent" cx="60" cy="60" transform="rotate(-90,60,60)"></circle>
+              </svg>
+              <div class="timer-content seconds">
+                <div class="number"></div>
+                <div class="descr"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden"></div>
+
+    <script src="js/timer.js"></script>
+
+  </body>
+</html>

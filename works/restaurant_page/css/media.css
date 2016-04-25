@@ -1,0 +1,131 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	.contact-img img {
+    width: 235px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.logo {
+    text-align: center;
+	}
+	.main-menu ul.nav.navbar-nav {
+    text-align: left;
+	}
+	.is-sticky .main-menu ul.nav.navbar-nav li a,
+	.main-menu ul.nav.navbar-nav li a {
+    padding: 22px 10px;
+	} 
+	.social-links {
+    top: 17px;
+	}
+	.header-text h2 {
+		font-size: 64px;
+	}
+	.header-text {
+    padding: 150px 0 100px;
+	}
+	.author-food-photo {
+		text-align: center;
+		margin-top: 30px;
+	}
+	.contact-img {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.footer-widget p {
+    font-size: 13px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.header-text {
+    padding: 100px 0;
+	}
+	.logo {
+		text-align: left
+	}
+	.is-sticky .logo a img {
+    height: 85px;
+	}
+	.navbar-header {
+		position: absolute;
+		right: 0;
+		top: -80px;
+	}
+	.is-sticky .navbar-header {
+		top: -60px;
+	}
+	.social-links {
+    top: -30px;
+	}
+	.is-sticky .social-links {
+    top: -15px;
+	}
+	.main-menu {
+		padding-right: 0;
+		text-align: center;
+		padding-top: 20px;
+	}
+	.navbar-toggle {
+		float: none;
+		margin: 0;
+		border-color: #fff
+	}
+	.navbar-toggle .icon-bar {
+		background-color: #fff
+	}
+	.is-sticky .navbar-collapse.collapse.in ul.nav.navbar-nav li a,
+	.is-sticky .navbar-collapse.collapsing ul.nav.navbar-nav li a {
+		padding: 15px;
+	}
+	.header-text h2 {
+    font-size: 50px;
+	}
+	.contact-img img {
+    margin-bottom: 30px;
+	}
+	.footer-widget {
+		margin-bottom: 40px;
+	}
+	footer {
+    padding: 60px 0 20px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.header-text h2 {
+    font-size: 40px;
+    line-height: 70px;
+	}
+	.section-padding {
+		padding: 40px 0;
+	}
+	.reviews-text p {
+   	font-size: 16px;
+	}
+	.contact-img img {
+    margin-left: 0;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	
+.header-text h2 {
+    font-size: 35px;
+    line-height: 60px;
+	}
+
+}

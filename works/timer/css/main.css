@@ -1,0 +1,152 @@
+.main, .widget-content {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0
+}
+body {
+  font-family: RobotoRegular, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  min-width: 768px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden
+}
+.main {
+  position: absolute;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  -webkit-filter: opacity(.9);
+  filter: opacity(.9)
+}
+.widget {
+  position: relative;
+  width: 700px;
+  height: 400px;
+  margin: 100px auto;
+  -webkit-box-shadow: 0 0 10px 6px rgba(0, 0, 0, .25);
+  box-shadow: 0 0 10px 6px rgba(0, 0, 0, .25)
+}
+.main-text, .timer, .timer-container, .widget-content {
+  position: absolute
+}
+.widget-content {
+  background: -webkit-linear-gradient(315deg, rgba(206, 153, 255, .8) 0, rgba(187, 153, 255, .8) 51%, rgba(14, 144, 255, .8) 100%);
+  background: linear-gradient(135deg, rgba(206, 153, 255, .8) 0, rgba(187, 153, 255, .8) 51%, rgba(14, 144, 255, .8) 100%);
+  color: #fff
+}
+.main-text {
+  top: 60px;
+  left: 70px
+}
+.main-text h1 {
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 0
+}
+.main-text p {
+  line-height: 18px;
+  margin-bottom: 30px
+}
+.main-text .btn {
+  background-color: #ff4489;
+  -webkit-box-shadow: 1px 0 15px 2px rgba(255, 121, 170, .7);
+  box-shadow: 1px 0 15px 2px rgba(255, 121, 170, .7);
+  width: 80px;
+  line-height: 36px;
+  font-weight: 600;
+  -webkit-border-radius: 18px;
+  border-radius: 18px;
+  text-align: center;
+  cursor: pointer
+}
+.timer {
+  right: 30px;
+  bottom: 30px;
+  width: 455px;
+  height: 120px
+}
+.timer-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0
+}
+.timer-circle {
+  height: 100%;
+  position: relative;
+  -webkit-transition: all linear .2s;
+  transition: all linear .2s
+}
+svg circle {
+  -webkit-transition: stroke-dashoffset .3s ease-in-out;
+  transition: stroke-dashoffset .3s ease-in-out;
+  stroke-width: 10px
+}
+svg #back.days {
+  stroke: rgba(31, 220, 255, .4)
+}
+svg #back.hours {
+  stroke: rgba(255, 135, 220, .4)
+}
+svg #back.minutes {
+  stroke: rgba(24, 241, 200, .4)
+}
+svg #back.seconds {
+  stroke: rgba(253, 168, 84, .4)
+}
+svg #bar.days {
+  stroke: rgba(31, 220, 255, .8)
+}
+svg #bar.hours {
+  stroke: rgba(255, 135, 220, .8)
+}
+svg #bar.minutes {
+  stroke: rgba(24, 241, 200, .9)
+}
+svg #bar.seconds {
+  stroke: rgba(253, 168, 84, .8)
+}
+.timer-content {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  height: 110px;
+  width: 110px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center
+}
+.timer-content.days {
+  -webkit-box-shadow: 1px 1px 15px 2px rgba(118, 218, 255, .5);
+  box-shadow: 1px 1px 15px 2px rgba(118, 218, 255, .5)
+}
+.timer-content.hours {
+  -webkit-box-shadow: 1px 1px 15px 1px rgba(255, 135, 220, .5);
+  box-shadow: 1px 1px 15px 1px rgba(255, 135, 220, .5)
+}
+.timer-content.minutes {
+  -webkit-box-shadow: 1px 1px 15px 1px rgba(24, 241, 200, .5);
+  box-shadow: 1px 1px 15px 1px rgba(24, 241, 200, .5)
+}
+.timer-content.seconds {
+  -webkit-box-shadow: 1px 1px 15px 1px rgba(253, 168, 84, .5);
+  box-shadow: 1px 1px 15px 1px rgba(253, 168, 84, .5)
+}
+.timer-content .number {
+  font-size: 34px;
+  line-height: 1.2;
+  margin-top: 20px
+}
+.timer-content .descr {
+  text-transform: uppercase
+}

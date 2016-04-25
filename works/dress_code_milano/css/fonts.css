@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "tornadoc";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/tornadoc/tornadoc.eot?#iefix") format("embedded-opentype"), url("../fonts/tornadoc/tornadoc.woff") format("woff");
+}
+
+@font-face {
+  font-family: "tornadoc-bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/tornadoc-bold/tornadoc-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/tornadoc-bold/tornadoc-bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "tornadoc-italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/tornadoc-italic/tornadoc-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/tornadoc-italic/tornadoc-italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "tornadolightc";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/tornadolightc/tornadolightc.eot?#iefix") format("embedded-opentype"), url("../fonts/tornadolightc/tornadolightc.woff") format("woff");
+}
+
+@font-face {
+  font-family: "tornadomediumc";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/tornadomediumc/tornadomediumc.eot?#iefix") format("embedded-opentype"), url("../fonts/tornadomediumc/tornadomediumc.woff") format("woff");
+}
+
+@font-face {
+  font-family: "tornadothinc";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/tornadothinc/tornadothinc.eot?#iefix") format("embedded-opentype"), url("../fonts/tornadothinc/tornadothinc.woff") format("woff");
+}
+
+@font-face {
+  font-family: "tornadothinc-italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/tornadothinc-italic/tornadothinc-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/tornadothinc-italic/tornadothinc-italic.woff") format("woff");
+}

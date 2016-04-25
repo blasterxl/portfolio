@@ -1,0 +1,247 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/
+  .header-center .main-text {
+    display: block;
+  }
+  .header-center .main-text h1 {
+    margin-bottom: 0;
+    text-shadow: 0 0 10px #000001;
+  }
+  .main-header {
+    background-color: #000;
+  }
+  .main-text {
+    display: none;
+  }
+  .top-line .phone-wrap {
+    float: right;
+  }
+  .top-line .phone-wrap .phone,
+  .top-line .phone-wrap .phone-btn {
+    margin-right: 60px;
+  }
+  .top-line .phone-wrap .fa-phone {
+    left: 0;
+  }
+  .top-line .phone-wrap .toggle-mnu {
+    display: block;
+  }
+  .main-mnu {
+    display: none;
+    float: right;
+    text-align: right;
+    font-size: 16px;
+    min-width: 295px;
+    background-color: #014523;
+    opacity: .98;
+    margin-top: 110px;
+    position: absolute;
+    right: 15px;
+    z-index: 2;
+  }
+  .main-mnu ul li {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  .main-mnu a {
+    display: block;
+    padding: 0 20px;
+    text-transform: uppercase;
+    border-bottom: 1px #46C183 solid;
+    color: #fff;
+    line-height: 48px;
+    transition: all 0.5s ease;
+  }
+  .main-mnu a:hover {
+    background-color: #008441;
+  }
+  .main-mnu ul.topBotomBordersOut li a:before,
+  .main-mnu ul.topBotomBordersOut li a:after {
+    content: none;
+  }
+  .section-2 .s-left .button-wrap,
+  .section-3 .s-left .button-wrap,
+  .section-4 .s-left .button-wrap {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .homesect .section-head .fa-skype {
+    top: 0;
+  }
+  .section-8 .section-content .prof-descr {
+    text-align: center;
+  }
+  .section-10 .button-wrap {
+    text-align: center;
+  }
+  .section-10 .form-group input {
+    width: 100%;
+  }
+  .section-12 .section-content .btn {
+    width: 350px;
+  }
+  .main-footer .phone-wrap .phone {
+    font-size: 20px;
+  }
+  .main-footer .phone-wrap .fa-phone {
+    font-size: 24px;
+    top: 12px;
+    left: 20px;
+  }
+  .main-footer .social-icons a {
+    padding-left: 16px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .top-line .logo-text {
+    display: none;
+  }
+  .top-line img {
+    margin-left: 0;
+    width: 180px;
+  }
+  .top-line .phone-wrap .phone,
+  .top-line .phone-wrap .phone-btn {
+    margin-right: 50px;
+  }
+  .homesect .section-head .fa-skype {
+    display: none;
+  }
+  .owl-theme .owl-controls .owl-buttons {
+    display: none;
+  }
+  .section-10 {
+    background-image: none;
+  }
+  .section-10 .section-head h2,
+  .section-10 .section-head p {
+    text-align: center;
+  }
+  .main-footer .phone-wrap .phone {
+    font-size: 26px;
+    text-align: center;
+  }
+  .main-footer .phone-wrap .fa-phone {
+    display: none;
+  }
+  .main-footer .social-icons {
+    text-align: center;
+  }
+  .main-footer .social-icons a {
+    padding-left: 16px;
+  }
+  .main-footer .our-contacts {
+    margin-top: 30px;
+  }
+  .float-left {
+    display: inline-block;
+  }
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /**/
+  .section-2 .section-content .price-wrap {
+    padding-right: 90px;
+  }
+  .section-7 .review-item .img-item img {
+    width: 270px;
+  }
+  .section-7 .review-item p {
+    padding: 0 15px;
+  }
+  .section-11 .section-bottom .bottom-text-wrap {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .section-12 .section-content .btn {
+    width: 300px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 460px) {
+  /**/
+  .header-wrap {
+    background-image: url("../img/header-bg-460px.jpg");
+  }
+  .header-wrap .header-left {
+    margin-top: 140px;
+  }
+  .top-line .phone-wrap .toggle-mnu {
+    top: -200px;
+  }
+  .top-line .phone-wrap .fa-phone {
+    top: 10px;
+    left: 30px;
+  }
+  .top-line .phone-wrap .phone {
+    background-color: #000;
+    padding: 5px 40px 5px 55px;
+    margin-right: 0;
+    border-radius: 5px;
+  }
+  .top-line .phone-wrap .phone-btn {
+    margin: 10px 0 0;
+    color: #fff;
+    background-color: #00a651;
+  }
+  .main-mnu {
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  /**/
+  .float-left {
+    float: left;
+    padding: 0;
+  }
+  .main-footer .logo-wrap {
+    margin-bottom: 15px;
+  }
+  .main-footer .phone-wrap .phone {
+    font-size: 20px;
+  }
+  .main-footer .social-icons a {
+    padding-left: 20px;
+  }
+  .main-footer .our-contacts {
+    display: none;
+  }
+}
+
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
