@@ -70,7 +70,7 @@ function template(elem, obj) {
   for (var i = 0; i < obj.length; i++) {
 
     var link_name = '#' + obj[i].name,
-      img_src = 'http://pokeapi.co/media/img/' + obj[i].pkdx_id + '.png',
+      img_src = 'http://pokeapi.co/media/sprites/pokemon/' + obj[i].pkdx_id + '.png',
       img_alt = obj[i].name,
       id = '#' + obj[i].pkdx_id,
       type = getType(obj[i]);
